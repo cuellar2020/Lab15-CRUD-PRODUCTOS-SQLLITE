@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab15.Views.AddProducto">
+    <ContentPage.Content>
+        <StackLayout Margin="10" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+            <Entry x:Name="txtNombre" Placeholder="Ingresa el nombre" />
+            <Entry x:Name="txtFecha" Placeholder="Ingresa Fecha" />
+            <Entry x:Name="txtPrecio" Placeholder="Ingresa Precio" />
+            <Button x:Name="btnSaveUpdate" Text="Guardar" Clicked="btnSaveUpdate_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
